@@ -1,0 +1,66 @@
+@media all and (max-width : 768px) {
+  body {
+    margin-bottom: 15vh;
+  }
+
+  html {
+    margin-top: 0 !important;
+  }
+  .toggle {
+    background-color: transparent !important;
+  }
+
+  input, textarea, select, fieldset {
+    margin: 1vh;
+    width: 17vh;
+  }
+
+  #start {
+    top: 5vh;
+  }
+
+  ul#resultsNow,ul#results {
+    margin-top: 5vh;
+    margin: 0 auto;
+  }
+
+  body {
+    margin-bottom: 15vh !important;
+  }
+}
+
+button {
+  margin-top: 3rem;
+  display: inline-block;
+  height: 38px !important;
+  padding: 0 30px !important;
+  color: #222B5F !important; /* was #555 */
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #fff !important;
+  border-radius: 50px !important;
+  border: 1px solid #bbb !important;
+  cursor: pointer !important;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body, #app {
+  height: 100vh;
+}
+
+select {
+  background-color: #001f3f;
+}
